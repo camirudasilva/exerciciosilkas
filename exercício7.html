@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercício 7</h1>
+    <p id="mensagem"></p>
+    <script>
+            let numero = Number (prompt("Digite um número:"))
+            if (numero<0){
+                 document.getElementById('mensagem').innerHTML +=`Insira um número maior que 0`
+            }
+            for(i = 0; i<=numero; i = i + 2){
+                 document.getElementById('mensagem').innerHTML +=`${i}`
+            }
+
+            
+
+
+    </script>
+
+    
+</body>
+</html>

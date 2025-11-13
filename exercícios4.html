@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercício 4</h1>
+    <script>
+     let temperaturaCelsius = prompt("Digite a temperatura em Celsius (°C):");
+ 
+temperaturaCelsius = parseFloat(temperaturaCelsius);
+if (isNaN(temperaturaCelsius)) {
+    alert("Entrada inválida. Por favor, digite um número.");
+} else {
+   
+    let temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32;
+    alert("A temperatura em Fahrenheit é: " + temperaturaFahrenheit.toFixed(2) + " °F");
+    console.log("Conversão concluída: " + temperaturaCelsius + "°C é igual a " + temperaturaFahrenheit.toFixed(2) + "°F");
+}
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

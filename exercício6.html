@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercício 6</h1>
+    <p id="mensagem"></p>
+    <script> 
+        let nota1= Number(prompt("Digite a primeira nota:"))
+        let nota2= Number(prompt("Digite a segunda nota:"))
+        let nota3= Number(prompt("Digite a terceira nota:"))
+
+        let soma = nota1 + nota2 + nota3;
+
+        let media = soma / 3
+        
+        if(media>6){
+            document.getElementById('mensagem').innerHTML = `Aprovado`
+        }
+        else if(media<6){
+             document.getElementById('mensagem').innerHTML =`Reprovado`
+        }
+        else if(media===6){
+             document.getElementById('mensagem').innerHTML =`Recuperação`
+        }
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Exercício 2</h1>
+    <p id= "mensagem"></p>
+
+    <script>
+
+        let idade = 16
+        let idade1 = Number(prompt("Digite sua idade:"))
+
+        if (idade1<=17){
+             document.getElementById('mensagem').innerHTML = `A sua idade é ${idade1} e você é menor de idade`
+        }
+        else if(idade1>=18){
+            document.getElementById('mensagem').innerHTML = `A sua idade é ${idade1} e você é maior de idade`
+        }
+
+    
+       
+    </script>
+</body>
+</html>
